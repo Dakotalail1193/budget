@@ -1,0 +1,119 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  /* font-family: 'Open-Sans'; */
+}
+
+/* @font-face {
+  font-family: 'Open-Sans';
+  src: url('./Assets/Open-Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+} */
+body{
+  background-color:aquamarine;
+}
+
+.auth-form{
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: cyan;
+  padding: 20px;
+  width: 300px;
+  height:fit-content;
+  border: 3px ridge grey;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;  
+}
+
+.auth-button{
+  margin: auto;
+  display: flex;  
+  align-items: center;
+}
+
+
+
+.header{
+  text-align: center;
+  margin-bottom: 30px;
+  background-color:cyan;
+  height: 60px;
+  border-bottom: 3px ridge grey;
+}
+
+h1{
+  font-size: 25px;
+  padding: 10px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.deposit-container{
+  margin: 10px;
+  text-align: center;
+  background-color: cyan;
+  width: auto;
+  height:fit-content;
+  border: 3px ridge grey;
+  border-radius: 5px;
+}
+
+.deposit{
+  margin: 15px;
+  background-color: cyan;
+  font-family: 'Open-Sans';
+}
+
+.withdrawal-container{
+  margin: 10px;
+  text-align: center;
+  background-color: cyan;
+  height:fit-content;
+  border: 3px ridge grey;
+  border-radius: 5px;
+}
+
+.withdrawal{
+  margin: 15px;
+  background-color: cyan;
+}
+
+.delete-btn{
+  margin: 15px;
+  height: 30px;
+  background-color: firebrick;
+  border-radius: 5px;
+}
+
+.edit-btn{
+  margin: 15px;
+  height: 30px;
+  background-color:seagreen;
+  border-radius: 5px;
+}
+
+input{
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+button{
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.final{
+  margin:auto;
+  text-align: center;
+  background-color: cyan;
+  height:fit-content;
+  width: fit-content;
+  border: 3px ridge grey;
+  border-radius: 5px;
+}

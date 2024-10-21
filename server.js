@@ -4,9 +4,11 @@ const mongoose = require('mongoose')
 const morgan = require ('morgan')
 require ('dotenv').config()
 const {expressjwt} = require('express-jwt')
+const path = require('path')
 
 app.use(express.json())
 app.use(morgan('dev'))
+app.use(express.static(path.join(__dirname, "client", "dist")))
 
 async function connectToDb(){
     try {
@@ -32,6 +34,8 @@ app.use ((err, req, res, next) =>{
     }
     return res.send({errMsg: err.message})
 })
+
+app.get("*", (req, res) => res.sendFile(path.join(__dirname, "client", "dist", "index.html")))
 
 app.listen(process.env.PORT, () => {
     console.log(`Server is running on port ${process.env.PORT}`)

@@ -9,7 +9,7 @@
   src: url('./Assets/Open-Sans/OpenSans-VariableFont_wdth\,wght.ttf');
 } */
 body{
-  background-color:aquamarine;
+  background-color:rgb(231, 231, 231);
 }
 
 .auth-form{
@@ -17,10 +17,10 @@ body{
   margin-top: 20%;
   margin-bottom: 30px;
   text-align: center;
-  background-color: cyan;
+  background-color:rgb(156, 153, 153);
   padding: 20px;
-  width: 300px;
-  height:fit-content;
+  width: 345px;
+  height:200px;
   border: 3px ridge grey;
   border-radius: 5px;
   display: flex;
@@ -31,14 +31,14 @@ body{
   margin: auto;
   display: flex;  
   align-items: center;
-}
+  }
 
 
 
 .header{
   text-align: center;
   margin-bottom: 30px;
-  background-color:cyan;
+  background-color:rgb(156, 153, 153);
   height: 60px;
   border-bottom: 3px ridge grey;
 }
@@ -56,7 +56,7 @@ h1{
 .deposit-container{
   margin: 10px;
   text-align: center;
-  background-color: cyan;
+  background-color: rgb(156, 153, 153);
   width: auto;
   height:fit-content;
   border: 3px ridge grey;
@@ -65,14 +65,14 @@ h1{
 
 .deposit{
   margin: 15px;
-  background-color: cyan;
+  background-color: rgb(156, 153, 153);
   font-family: 'Open-Sans';
 }
 
 .withdrawal-container{
   margin: 10px;
   text-align: center;
-  background-color: cyan;
+  background-color: rgb(156, 153, 153);
   height:fit-content;
   border: 3px ridge grey;
   border-radius: 5px;
@@ -80,7 +80,7 @@ h1{
 
 .withdrawal{
   margin: 15px;
-  background-color: cyan;
+  background-color: rgb(156, 153, 153);
 }
 
 .delete-btn{
@@ -104,14 +104,14 @@ input{
 }
 
 button{
-  margin: 10px;
+  margin: 30px;
   border-radius: 5px;
 }
 
 .final{
   margin:auto;
   text-align: center;
-  background-color: cyan;
+  background-color: rgb(156, 153, 153);
   height:fit-content;
   width: fit-content;
   border: 3px ridge grey;

@@ -28,11 +28,10 @@ function Deposit(props){
             deposit={deposit}
             _id={_id}
             btnText="Submit Edit"
-            submit={editDeposit}/>
-            <button 
-            className='edit-btn'
-            onClick={() => setEditToggle(prevToggle => !prevToggle)}
-            >Close</button>            
+            submit={editDeposit}            
+            />
+            <button className='edit-btn'
+            onClick={() => setEditToggle(prevToggle => !prevToggle)}>Close</button>            
             </>
         }
         </div>

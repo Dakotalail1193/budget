@@ -135,6 +135,7 @@ function editDeposit(updates, depositId){
     userAxios.put(`/api/main/deposit/${depositId}`, updates)
     .then(res => {
         setDeposit(prevDeposit => prevDeposit.map (deposit => deposit._id !== depositId ? deposit : res.data))
+        
     })
     .catch(err => console.log(err))
 }
